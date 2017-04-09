@@ -1,9 +1,9 @@
 # --- Serving options --- #
 # If you are building a GitHub project page then use these settings:
 # url is the full website URL
-url: "http://php2560.com"
+url: "http://php2560.com/website"
 # baseurl is the website's URL without the hostname
-baseurl: "/"
+baseurl: "/website"
 
 # Name of website
 title: PHP 2560
