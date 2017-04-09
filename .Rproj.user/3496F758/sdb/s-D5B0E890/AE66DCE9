@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Untitled\"\nauthor: \"Adam J Sullivan\"\ndate: \"April 8, 2017\"\noutput: html_document\n---\n",
+    "created" : 1491695312973.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1594354334",
+    "id" : "AE66DCE9",
+    "lastKnownWriteTime" : 8462103567194468402,
+    "last_content_update" : 1491695320764,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

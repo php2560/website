@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "<!-- TODO this file has become a mess, refactor it -->\n\n{% if page.bigimg or page.title %}\n\n{% if page.bigimg %}\n  <div id=\"header-big-imgs\" data-num-img={% if page.bigimg.first %}{{ page.bigimg.size }}{% else %}1{% endif %}\n    {% for bigimg in page.bigimg %}\n\t  {% assign imgnum = forloop.index %}\n\t  {% for imginfo in bigimg %}\n\t    {% if imginfo[0] %}\n\t\t  data-img-src-{{ imgnum }}=\"{{ imginfo[0] | prepend: site.baseurl | replace: '//', '/' }}\"\n\t\t  data-img-desc-{{ imgnum }}=\"{{ imginfo[1] }}\"\n\t\t{% else %}\n\t\t  data-img-src-{{ imgnum }}=\"{{ imginfo | prepend: site.baseurl | replace: '//', '/' }}\"\n\t\t{% endif %}\n\t  {% endfor %}\n    {% endfor %}\n  ></div>\n{% endif %}\n\n<header class=\"header-section {% if page.bigimg %}has-img{% endif %}\">\n{% if page.bigimg %}\n<div class=\"big-img intro-header\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n        <div class=\"{{ include.type }}-heading\">\n          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>\n\t\t  {% if page.subtitle %}\n\t\t    {% if include.type == \"page\" %}\n            <hr class=\"small\">\n            <span class=\"{{ include.type }}-subheading\">{{ page.subtitle }}</span>\n\t\t\t{% else %}\n\t\t\t<h2 class=\"{{ include.type }}-subheading\">{{ page.subtitle }}</h2>\n\t\t\t{% endif %}\n\t\t  {% endif %}\n\t\t  \n\t\t  {% if include.type == \"post\" %}\n\t\t  <span class=\"post-meta\">Posted on {{ page.date | date: \"%B %-d, %Y\" }}</span>\n\t\t  {% endif %}\n        </div>\n      </div>\n    </div>\n  </div>\n  <span class='img-desc'></span>\n</div>\n{% endif %}\n<div class=\"intro-header no-img\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n        <div class=\"{{ include.type }}-heading\">\n          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>\n\t\t  {% if page.subtitle %}\n\t\t    {% if include.type == \"page\" %}\n            <hr class=\"small\">\n            <span class=\"{{ include.type }}-subheading\">{{ page.subtitle }}</span>\n\t\t\t{% else %}\n\t\t\t<h2 class=\"{{ include.type }}-subheading\">{{ page.subtitle }}</h2>\n\t\t\t{% endif %}\n\t\t  {% endif %}\n\t\t  \n\t\t  {% if include.type == \"post\" %}\n\t\t  <span class=\"post-meta\">Posted on {{ page.date | date: \"%B %-d, %Y\" }}</span>\n\t\t  {% endif %}\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n</header>\n\n\n{% else %}\n<div class=\"intro-header\"></div>\n{% endif %}",
+    "created" : 1491703863459.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2617896127",
+    "id" : "7BFBF786",
+    "lastKnownWriteTime" : 1491673861,
+    "last_content_update" : 1491673861,
+    "path" : "C:/Users/adam_/Dropbox/Brown/PHP2511/website/_includes/header.html",
+    "project_path" : "_includes/header.html",
+    "properties" : {
+    },
+    "relative_order" : 14,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}
