@@ -1,0 +1,48 @@
+---
+title: "March 14, 2017 Pre-Class"
+author: Adam J Sullivan
+date: '2017-03-11'
+slug: 03-14-pre-class
+categories:
+  - Pre-Class
+  - R
+tags:
+  - R
+  - R Markdown
+---
+
+# Slack
+
+
+You have all received a request for Slack. This is a great tool for communicating with teams as well as what many start up companies use to have a twitter like management of group projects. 
+
+Please log in and explore slack. 
+
+
+
+Once you have logged in, there is a tool called Captain Feedback.
+
+Here is how this tool works: 
+
+1. Say `Hello @captain_feedback`
+2. Captain Feedback will provide instructions and 3 sets of questions for you:
+  - Who do you want feedback from. Use `@` to choose all your classmates.
+  - What do you want feedback on. Take the functions rmd file your group worked on and drag this to the right side of the screen where there are files. 
+  - Then Captain feedback will ask what you want feedback on. Ask for specific things about your code, your clarity and you comments. 
+3. Respond to Captain Feedback for all of your other classmates. 
+
+
+
+## Questions
+
+If you have questions for anything, use `@ajsullivan` to ask we. You can group message me or private message me. 
+
+
+
+# Preclass Project
+
+
+Work on this sumlation project. Remember to commit changes often. On your functions lab many of you have not finished and have not made any commits. Do this in order to achieve credit. 
+
+
+[Simulations Pre-Class Project](https://classroom.github.com/assignment-invitations/ef9e3a4121e86130820af93e422c4631)
