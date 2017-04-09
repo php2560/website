@@ -1,10 +1,12 @@
 ---
+layout: post
 title: "February 28, 2017 - Pre-Class"
-author: "Adam J Sullivan"
-date: 2015-07-23T21:13:14-05:00
+date: 2015-07-23
 categories: ["R", "Pre-Class"]
 tags: ["R Markdown", "R", "Github"]
 ---
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
