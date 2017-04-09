@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\nlayout: page\ntitle: Your Pre-Class Work!\n---\n<div style=\"text-align:center\">\n  <p style=\"font-size=x-large; font-weight:bold; font-style:italic;\"><a href=\"tags.html\">Tags Used in Posts</a> | <a href=\"http://www.r-bloggers.com/\">R-bloggers</a></p>\n</div>\n\n<div class=\"posts-list\">\n  {% for post in paginator.posts %}\n  <article class=\"post-preview\">\n    <a href=\"{{ post.url | prepend: site.baseurl }}\">\n\t  <h2 class=\"post-title\">{{ post.title }}</h2>\n\n\t  {% if post.subtitle %}\n\t  <h3 class=\"post-subtitle\">\n\t    {{ post.subtitle }}\n\t  </h3>\n\t  {% endif %}\n    </a>\n\n    <p class=\"post-meta\">\n      Posted on {{ post.date | date: \"%B %-d, %Y\" }}\n    </p>\n\n    <div class=\"post-entry\">\n      {{ post.content | strip_html | xml_escape | truncatewords: 30}}\n\t  <a href=\"{{ post.url | prepend: site.baseurl }}\" class=\"post-read-more\">[Read&nbsp;More]</a>\n    </div>\n\n   </article>\n  {% endfor %}\n</div>\n\n{% if paginator.total_pages > 1 %}\n<ul class=\"pager main-pager\">\n  {% if paginator.previous_page %}\n  <li class=\"previous\">\n    <a href=\"{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}\">&larr; Newer Posts</a>\n  </li>\n  {% endif %}\n  {% if paginator.next_page %}\n  <li class=\"next\">\n    <a href=\"{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}\">Older Posts &rarr;</a>\n  </li>\n  {% endif %}\n</ul>\n{% endif %}\n",
+    "created" : 1491752553592.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4227020115",
+    "id" : "55070FF1",
+    "lastKnownWriteTime" : 1491752570,
+    "last_content_update" : 1491752570494,
+    "path" : "C:/Users/adam_/Dropbox/Brown/PHP2560/website2/preclass/index.html",
+    "project_path" : "preclass/index.html",
+    "properties" : {
+    },
+    "relative_order" : 15,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}
