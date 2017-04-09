@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\nlayout: post\ntitle: Bioenergetics in R\ntags: [R, Bioenergetics]\n---\n\nIn the last few months I have received queries about whether a “fish bioenergetics” model has been implemented in R.  Here is what I am aware of.\n\n* [Fish Bioenergtics 4.0](https://bioenergetics4.shinyapps.io/bioenergetics4/) (an update of the Fish Bioenergetics program distributed by Wisconsin Sea Grant)\n    * [an announcement](http://www.fishdata.org/newsletters/fall-2014/update-fish-bioenergetics-40-fish-bioen4), and\n    * [an abstract for the upcoming AFS meeting in Portland](https://afs.confex.com/afs/2015/webprogram/Paper21117.html).\n* [ISEMP (Integrated Status and Monitoring Program) implementation](http://www.isemp.org/action.php?chi=14)\n\nIf you know of others please post in the comments.",
+    "created" : 1491752673659.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2272207511",
+    "id" : "A6C054D0",
+    "lastKnownWriteTime" : 1491752680,
+    "last_content_update" : 1491752681046,
+    "path" : "C:/Users/adam_/Dropbox/Brown/PHP2560/website2/_posts/test.md",
+    "project_path" : "_posts/test.md",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 16,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
