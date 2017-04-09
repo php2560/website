@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\nlayout: base\n---\n\n{% include header.html type=\"post\" %}\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n      <article role=\"main\" class=\"blog-post\">\n\t    {{ content }}\n\t  </article>\n\n\t  {% if page.tags %}\n\t  <div class=\"blog-tags\">\n\t\tTags: {{ page.tags | join: \", \" }}\n\t  </div>\n\t  {% endif %}\n\n      <ul class=\"pager blog-pager\">\n        {% if page.previous.url %}\n        <li class=\"previous\">\n          <a href=\"{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"{{page.previous.title}}\">&larr; Previous Post</a>\n        </li>\n        {% endif %}\n        {% if page.next.url %}\n        <li class=\"next\">\n          <a href=\"{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"{{page.next.title}}\">Next Post &rarr;</a>\n        </li>\n        {% endif %}\n      </ul>\n\n      {% include share-page.html %}\n\n\t    {% if page.comments %}\n        <div class=\"disqus-comments\">\n\t        {% include disqus.html %}\n        </div>\n\t    {% endif %}\n    </div>\n  </div>\n</div>\n",
+    "created" : 1491752343775.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1763038551",
+    "id" : "767E465D",
+    "lastKnownWriteTime" : 1491673861,
+    "last_content_update" : 1491673861,
+    "path" : "C:/Users/adam_/Dropbox/Brown/PHP2560/website2/_layouts/post.html",
+    "project_path" : "_layouts/post.html",
+    "properties" : {
+    },
+    "relative_order" : 14,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}
